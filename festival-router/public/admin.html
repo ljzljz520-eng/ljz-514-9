@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>后台管理 - 音乐节动线</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>🛠 场地状态后台</h1>
+    <span class="tag">变更实时生效</span>
+    <div class="spacer"></div>
+    <span id="updated"></span>
+    <button id="btn-reset">↩ 恢复初始状态</button>
+    <a href="/">返回观众端</a>
+  </header>
+
+  <div class="admin-grid">
+    <div class="panel">
+      <h2>节点开放状态（舞台 / 餐饮 / 洗手间 / 出口）</h2>
+      <table class="admin-table">
+        <thead><tr><th>节点</th><th>类型</th><th style="width:80px">开放中</th></tr></thead>
+        <tbody id="node-tbody"></tbody>
+      </table>
+    </div>
+    <div class="panel">
+      <h2>路段状态（封控 / 人流拥挤度）</h2>
+      <table class="admin-table">
+        <thead><tr><th>路段</th><th>距离</th><th>拥挤度</th><th style="width:80px">封控</th></tr></thead>
+        <tbody id="edge-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+  <div id="toast"></div>
+  <script src="/js/admin.js"></script>
+</body>
+</html>

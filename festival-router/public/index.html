@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>音乐节动线助手</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>🎪 音乐节动线助手</h1>
+    <span class="tag">实时避堵 · 封控绕行</span>
+    <div class="spacer"></div>
+    <span id="updated"></span>
+    <button id="btn-refresh">🔄 刷新路线</button>
+    <a href="/admin.html">后台管理</a>
+  </header>
+
+  <div class="layout">
+    <!-- 左: 简化场地图 -->
+    <div class="panel" id="map-wrap">
+      <h2>场地地图</h2>
+      <svg id="venue-map" viewBox="0 0 800 620"></svg>
+      <div class="legend">
+        <div class="item"><span class="swatch" style="background:#34d399"></span>畅通</div>
+        <div class="item"><span class="swatch" style="background:#fbbf24"></span>一般</div>
+        <div class="item"><span class="swatch" style="background:#fb923c"></span>拥挤</div>
+        <div class="item"><span class="swatch" style="background:#ef4444"></span>严重拥堵</div>
+        <div class="item"><span class="swatch swatch dashed"></span>封控路段</div>
+        <div class="item">🎤舞台 🍢餐饮 🚻洗手间 🚪出口</div>
+      </div>
+    </div>
+
+    <!-- 右: 选择 + 路线卡片 -->
+    <div>
+      <div class="panel">
+        <h2>规划我的动线</h2>
+        <div class="select-row"><label>📍 起点</label><select id="sel-start"></select></div>
+        <div class="select-row"><label>🎤 舞台</label><select id="sel-stage"></select></div>
+        <div class="select-row"><label>🍢 餐饮</label><select id="sel-food"></select></div>
+        <div class="select-row"><label>🚻 洗手间</label><select id="sel-restroom"></select></div>
+        <div class="select-row"><label>🚪 出口</label><select id="sel-exit"></select></div>
+        <button class="btn-primary" id="btn-plan">规划路线</button>
+      </div>
+      <div id="result" style="margin-top:16px"></div>
+    </div>
+  </div>
+
+  <div id="toast"></div>
+  <script src="/js/app.js"></script>
+</body>
+</html>

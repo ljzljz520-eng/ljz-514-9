@@ -1,0 +1,165 @@
+{
+  "nodes": {
+    "entrance": {
+      "open": true
+    },
+    "main_stage": {
+      "open": true
+    },
+    "edm_stage": {
+      "open": true
+    },
+    "folk_stage": {
+      "open": true
+    },
+    "bbq": {
+      "open": true
+    },
+    "food_street": {
+      "open": true
+    },
+    "drinks": {
+      "open": true
+    },
+    "wc_a": {
+      "open": true
+    },
+    "wc_b": {
+      "open": true
+    },
+    "exit_west": {
+      "open": true
+    },
+    "exit_east": {
+      "open": true
+    },
+    "j_nw": {
+      "open": true
+    },
+    "j_ne": {
+      "open": true
+    },
+    "j_w": {
+      "open": true
+    },
+    "j_e": {
+      "open": true
+    },
+    "j_sw": {
+      "open": true
+    },
+    "j_se": {
+      "open": true
+    },
+    "plaza": {
+      "open": true
+    }
+  },
+  "edges": {
+    "e0": {
+      "closed": false,
+      "congestion": 0
+    },
+    "e1": {
+      "closed": false,
+      "congestion": 0
+    },
+    "e2": {
+      "closed": false,
+      "congestion": 2
+    },
+    "e3": {
+      "closed": false,
+      "congestion": 0
+    },
+    "e4": {
+      "closed": false,
+      "congestion": 0
+    },
+    "e5": {
+      "closed": false,
+      "congestion": 0
+    },
+    "e6": {
+      "closed": false,
+      "congestion": 1
+    },
+    "e7": {
+      "closed": false,
+      "congestion": 0
+    },
+    "e8": {
+      "closed": false,
+      "congestion": 0
+    },
+    "e9": {
+      "closed": false,
+      "congestion": 0
+    },
+    "e10": {
+      "closed": false,
+      "congestion": 0
+    },
+    "e11": {
+      "closed": false,
+      "congestion": 0
+    },
+    "e12": {
+      "closed": false,
+      "congestion": 0
+    },
+    "e13": {
+      "closed": true,
+      "congestion": 0
+    },
+    "e14": {
+      "closed": false,
+      "congestion": 0
+    },
+    "e15": {
+      "closed": false,
+      "congestion": 0
+    },
+    "e16": {
+      "closed": false,
+      "congestion": 2
+    },
+    "e17": {
+      "closed": false,
+      "congestion": 0
+    },
+    "e18": {
+      "closed": false,
+      "congestion": 0
+    },
+    "e19": {
+      "closed": false,
+      "congestion": 0
+    },
+    "e20": {
+      "closed": false,
+      "congestion": 0
+    },
+    "e21": {
+      "closed": false,
+      "congestion": 3
+    },
+    "e22": {
+      "closed": false,
+      "congestion": 0
+    },
+    "e23": {
+      "closed": false,
+      "congestion": 1
+    },
+    "e24": {
+      "closed": false,
+      "congestion": 0
+    },
+    "e25": {
+      "closed": false,
+      "congestion": 0
+    }
+  },
+  "updatedAt": 1790402857470
+}
